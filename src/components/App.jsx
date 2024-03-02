@@ -5,7 +5,7 @@ import { PokemonInfo } from "./PokemonInfo/PokemonInfo"
 export class App extends PureComponent{ 
 
   state = {
-    pokemon: '',
+    pokemonName: '',
   }
 
 //   async componentDidMount(){
@@ -19,7 +19,7 @@ export class App extends PureComponent{
 
 onNameChange = (name) => {
   this.setState({
-    pokemon:name
+    pokemonName:name
   })
 }
 
